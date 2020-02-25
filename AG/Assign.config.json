@@ -1,0 +1,14 @@
+{
+    "next_config_file": "E:\\Work\\Student_Work\\BIT_143_New\\AG_PristineProjects\\BIT_143\\SharedResources\\PCEWithViewingQuiz.BaseAssign.config.json",
+    "feedback_title": "PCE 07",
+    "lesson_number": "07",
+    "feedback_subtitle": "Lesson 07 Post Class Exercises",
+    "max_score": 10,
+    "min_score": 0,
+    // output_dir is underneath whichever dir the first config file is located in
+    // (this is expected to be the directory containing the students' work)	
+    "output_dir": "OUTPUT",
+    "pristine_solution": "E:\\Work\\Student_Work\\BIT_143_New\\AG_PristineProjects\\BIT_143\\PCE_07_VS_2017_NUnit_3_0\\",
+    // executable_to_test must be relative to the root of the pristine solution
+    "executable_to_test": "bin\\Debug\\NUnitTest.exe"
+}
