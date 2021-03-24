@@ -3,6 +3,7 @@ using System.IO; // For the Console.Out stuff
 using System.Text; // For StringBuilder
 
 using NUnit.Framework;
+using NUnitLite;
 
 /*
  * This file contains helper classes for the tests.  It does NOT contain any tests itself.
@@ -16,6 +17,14 @@ using NUnit.Framework;
 
 namespace PCE_StarterProject
 {
+    public class Run_Tests_On_Console
+    {
+        public static int Main(string[] args)
+        {
+            return new AutoRun().Execute(args);
+        }
+    }
+
     public class TestHelpers
     {
         /// <summary>
